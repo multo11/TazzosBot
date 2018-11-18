@@ -1,3 +1,6 @@
+let config = {
+    "prefix": "!"
+}
 var Discord = require("discord.js")
 var client = new Discord.Client()
 client.commands = new Discord.Collection();
