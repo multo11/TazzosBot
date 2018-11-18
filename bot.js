@@ -21,7 +21,8 @@ client.on('message',async message => {
     }
     if (message.content =="Chetobot") {
          message.channel.send("To ja!")
-    }}
+    }
+})
 
     
  
