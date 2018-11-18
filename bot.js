@@ -15,8 +15,8 @@ client.on('message',async message => {
     if (message.content == "ping") {
         message.channel.send("pong")
     }
-    if (message.content =="pong"){
-        message.channel.send("ping")
+    if (message.content =="Jak sie nazywasz bocie"){
+        message.channel.send("Chetoo")
     }
 })
  
