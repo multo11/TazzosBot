@@ -8,7 +8,8 @@ client.on("ready", () => {
     })
 })
 
-client.on('message',async message => { if(message.author.bot) return;
+client.on('message',async message => { 
+    if(message.author.bot) return;
     if (message.content == "!avatar") {
     message.reply("Oto twój Avatar "+message.author.avatarURL)
     }
@@ -25,4 +26,4 @@ client.on('message',async message => { if(message.author.bot) return;
     
  
 
-client.login(process.env.TOKEN)
+client.login;{process.env.TOKRM}
