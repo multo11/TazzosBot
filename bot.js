@@ -19,7 +19,7 @@ client.on('message',async message => {
     if (message.content =="pong") {
         message.channel.send("ping")
     }
-    if (message.content.toLowerCase(cheetobot) =="cheetobot") {
+    if (message.content.toLowerCase() =="cheetobot") {
          message.channel.send("To ja!")
     }
 })
