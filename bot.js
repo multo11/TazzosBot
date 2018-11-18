@@ -8,7 +8,7 @@ client.on("ready", () => {
     })
 })
 
-client.on('message'if(message.author.bot) return;,async message => {
+client.on('message',async message => { if(message.author.bot) return;
     if (message.content == "!avatar") {
     message.reply("Oto twój Avatar "+message.author.avatarURL)
     }
