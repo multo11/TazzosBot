@@ -18,7 +18,7 @@ client.on('message',async message => { if(message.author.bot) return;
     if (message.content =="pong"){
         message.channel.send("ping")
     }
-    if (message.content == "Cheto bot"){
+    if (message.content =="Chetobot"){
          message.channel.send("To ja!")
     }
  
